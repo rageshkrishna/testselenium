@@ -2,9 +2,9 @@ language: java
 java:
  - oraclejava8
  
-#env:
-#  global:
-#    - SHIPPABLE_SELENIUM_BINARY=/usr/local/selenium/selenium-server-standalone-2.45.0.jar
+env:
+  global:
+    - SHIPPABLE_SELENIUM_BINARY=/usr/local/selenium/selenium-server-standalone-2.45.0.jar
 
 services:
   - selenium
